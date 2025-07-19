@@ -97,34 +97,35 @@ nav ul i{
 }
 
 .banner-content1-button{
-    width: 150px;
-    border-radius: 41px;
+    width: 216px;
+    border-radius: 44px;
     text-align: center;
     padding: 10px 56px 10px 24px;
     margin-top: 10px;
+    border: none;
 }
 
 .banner-content1-button i{
     margin-left: 8px;
 }
 
+
 .banner-content2-image1 img{
     width: 475px;
     height: 475px;
-    position: relative;
+    margin-bottom: -50px;
 }
 .banner-content2-image2 img{
     width: 440px;
     height: 414px;
-    position: absolute;
-    top: 225px;
+    margin-top: -400px;
 }
 
 /* Media Query */
 /* Small Size Device */
 @media screen and (max-width: 576px) {
     nav,
-    nav ul 
+    nav ul
     {
         flex-direction: column;
     }
@@ -137,10 +138,48 @@ nav ul i{
         gap: 30px;
         margin-top: 30px;
     }
+
+    /* Banner Section */
+    .banner-container{
+        margin-top: 100px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .banner-content2-image1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-content2-image2 img{
+        width: 90%;
+        height: 90%;
+    }
+    .banner-content1{
+        text-align: center;
+        margin-top: -150px;
+    }
+    .banner-content1-heading{
+        width: auto;
+        margin-bottom: 130px;
+    }
+    .banner-content1-paragraph{
+        width: auto;
+    }
+    .banner-content1-button{
+        margin-top: 40px;
+    }
 }
 
 /* Medium Size Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
+    /* Banner Section */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-content1{
+        margin-top: -120px;
+    }
     
 }
