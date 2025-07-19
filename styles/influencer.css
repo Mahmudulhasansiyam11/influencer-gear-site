@@ -61,3 +61,27 @@ nav ul i{
     color: #000000;
 }
 
+/* Media Query */
+/* Small Size Device */
+@media screen and (max-width: 576px) {
+    nav,
+    nav ul 
+    {
+        flex-direction: column;
+    }
+
+    /* Navbar Section */
+    nav{
+        align-items: center;
+    }
+    nav ul{
+        gap: 30px;
+        margin-top: 30px;
+    }
+}
+
+/* Medium Size Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+    
+}
