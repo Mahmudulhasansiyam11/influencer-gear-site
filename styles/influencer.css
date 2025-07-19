@@ -1,0 +1,63 @@
+/* Primary */
+/* Font */
+/* Poppins Font */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* Inter Font */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Color */
+.color-primary{
+    color: #3A3A3A;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* Header Section */
+/* Navbar */
+
+nav{
+    justify-content: space-between;
+}
+
+nav h3{
+    font-size: 1.5rem;
+    margin-top: 77px;
+}
+
+nav ul{
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+    margin-top: 85px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul i{
+    color: #000000;
+}
+
