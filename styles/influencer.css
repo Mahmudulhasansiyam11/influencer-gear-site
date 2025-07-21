@@ -26,6 +26,15 @@
   font-variation-settings: "width" 100;
 }
 
+/* Manrope Font */
+
+.manrope-font{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -266,6 +275,45 @@ main {
   padding-bottom: 10px;
 }
 
+/* Footer */
+footer{
+  width: all;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content{
+  margin: 50px ;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-content p{
+  font-size: 0.9rem;
+}
+
+.footer-content ul{
+  display: flex;
+  gap: 16px;
+}
+.footer-content ul li img{
+   width: 32px;
+  height: 32px;
+}
+.footer-content ul{
+  padding-left: 50px;
+}
+
+
 /* Media Query */
 /* Small Size Device */
 @media screen and (max-width: 576px) {
@@ -353,7 +401,14 @@ main {
     margin-top: 50px;
   }
   .feature-product-container img{
+    width: 90%;
     margin-top: -50px;
+  }
+
+  /* Footer */
+  footer{
+    width: auto;
+    margin-top: 50px;
   }
 }
 
@@ -387,5 +442,10 @@ main {
   .collection-content-box1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+   /* Footer */
+  footer{
+    max-width: auto;
+    margin-top: 50px;
   }
 }
