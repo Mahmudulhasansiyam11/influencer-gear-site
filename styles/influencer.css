@@ -217,6 +217,54 @@ main {
   color: rgba(120, 120, 133, 1);
   margin-top: 0px;
 }
+.collection-content-extra {
+  margin-top: 50px;
+  text-align: end;
+}
+.collection-content-see-more {
+  color: #e02c6d;
+}
+.collection-content-see-more i {
+  margin-left: 5px;
+}
+
+/* Feature Product Section */
+.feature-product-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+}
+.feature-product-content h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #0a0826;
+}
+.feature-product-content p {
+  margin-top: -30px;
+  width: 501px;
+  height: 81px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6c6c6c;
+}
+.feature-product-content-button button {
+  width: 160px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  border: none;
+}
+.feature-product-content-button button i {
+  margin-left: 8px;
+  padding-top: 10px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+}
 
 /* Media Query */
 /* Small Size Device */
