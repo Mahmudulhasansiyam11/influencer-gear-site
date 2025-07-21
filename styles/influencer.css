@@ -154,11 +154,11 @@ main {
 .collection-container {
   max-width: 1047px;
   margin: 0 auto;
+  text-align: center;
 }
 .collection-content-heading {
   font-size: 1.5rem;
   font-weight: 500;
-  text-align: center;
 }
 .collection-content-box1 {
   display: grid;
@@ -279,6 +279,14 @@ main {
     width: 100%;
     height: 100%;
   }
+
+  /* Collection Section */
+  .collection-container {
+    margin-top: 50px;
+  }
+  .collection-content-box1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* Medium Size Device */
@@ -303,5 +311,11 @@ main {
   .logo-content div img {
     width: 100%;
     height: 100%;
+  }
+
+  /* Collection Section */
+  .collection-content-box1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
